@@ -5,7 +5,7 @@
     	<meta name="description" content="This is where your description goes">
     	<meta name="keywords" content="one, two, three">
 
-		<title>Title</title>
+		<title>Let's Colour</title>
 
 		<!-- external CSS link -->
 		<link rel="stylesheet" href="css/normalize.css">
@@ -13,8 +13,26 @@
 	</head>
 	<body>
 
-		<h1></h1>
+		<h1>Let's Colour</h1>
+		<label for="how-many">	How many colours would you like?</label>
+		<input type="number" id="how-many" placeholder="1">
+		<select name="colour" id="colour">
+			<option value="">None</option>
+			<option value="red">Red</option>
+			<option value="orange">Orange</option>
+			<option value="yellow">Yellow</option>
+			<option value="lime">Lime</option>
+			<option value="green">Green</option>
+			<option value="aqua">Aqua</option>
+			<option value="blue">Blue</option>
+			<option value="navy">Navy</option>
+			<option value="purple">Purple</option>
+			<option value="pink">Pink</option>
+		</select>
+		<button>Give me colours</button>
+		<button>Clear colours</button>
 
+		<div class="flex-container colour-box"></div>
 
 		<script type="text/javascript" src="js/main.js"></script>
 	</body>
